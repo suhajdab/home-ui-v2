@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Balázs Suhajda",
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "dependencies": {
+    "bower": "^1.6.5"
+  }
 }

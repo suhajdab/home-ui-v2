@@ -1,0 +1,23 @@
+{
+  "name": "home-ui",
+  "description": "ui for home",
+  "main": "server.js",
+  "authors": [
+    "Balázs Suhajda"
+  ],
+  "license": "WTFPL",
+  "homepage": "https://github.com/suhajdab/home-ui-v2",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "riot": "~2.2.4",
+    "progressbar.js": "~0.9.0"
+  }
+}
