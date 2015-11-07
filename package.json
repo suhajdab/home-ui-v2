@@ -9,6 +9,8 @@
   "author": "Balázs Suhajda",
   "license": "WTFPL",
   "dependencies": {
-    "bower": "^1.6.5"
+    "bower": "^1.6.5",
+    "express": "^4.13.3",
+    "express-ws": "^0.2.6"
   }
 }
