@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width = device-width">
+    <meta name="format-detection" content="telephone=no">
+    <title>home ui</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<app></app>
+
+<!-- riot tags -->
+<script src="tags/app.tag" type="riot/tag"></script>
+<script src="tags/device-list.tag" type="riot/tag"></script>
+<script src="tags/light.tag" type="riot/tag"></script>
+<script src="tags/progress-circle.tag" type="riot/tag"></script>
+
+<!-- js -->
+<script src="components/riot/riot+compiler.min.js"></script>
+<script src="components/progressbar.js/dist/progressbar.min.js"></script>
+<script src="js/websockets.js"></script>
+<script>
+    function App() {
+        riot.observable( this );
+    }
+
+    var app = new App();
+    riot.mount( 'app', app );
+</script>
+</body>
+</html>
