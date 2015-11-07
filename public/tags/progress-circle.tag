@@ -21,10 +21,11 @@
         function onMount() {
             var el = tag.root.querySelector( 'div' );
             circle = new ProgressBar.Circle( el, {
-                color: '#FCB03C',
+                color: '#eee',
 //                fill: '#eee',
-                strokeWidth: 3,
-                trailWidth: 3,
+                trailColor: '#444',
+                strokeWidth: 1,
+                trailWidth: 1,
                 easing: 'easeOut',
                 duration: 500,
                 text: {
@@ -52,6 +53,7 @@
 
         .progressbar-text {
             font-size: 3rem;
+            font-weight: 100;
         }
     </style>
 </progress-circle>

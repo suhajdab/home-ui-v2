@@ -8,8 +8,8 @@ body {
     margin: 0;
 
     background: #333;
-    font-family: sans-serif;
-    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 label {
